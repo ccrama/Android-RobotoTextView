@@ -66,7 +66,7 @@ public final class RobotoTypefaceUtils {
             int typefaceValue = a.getInt(R.styleable.RobotoTextView_typeface, RobotoTypefaceManager.Typeface.ROBOTO_REGULAR);
             typeface = RobotoTypefaceManager.obtainTypeface(context, typefaceValue);
         } else {
-            int fontFamily = a.getInt(R.styleable.RobotoTextView_fontFamily, RobotoTypefaceManager.FontFamily.ROBOTO);
+            int fontFamily = a.getInt(R.styleable.RobotoTextView_fontFam, RobotoTypefaceManager.FontFamily.ROBOTO);
             int textWeight = a.getInt(R.styleable.RobotoTextView_textWeight, RobotoTypefaceManager.TextWeight.NORMAL);
             int textStyle = a.getInt(R.styleable.RobotoTextView_textStyle, RobotoTypefaceManager.TextStyle.NORMAL);
             typeface = RobotoTypefaceManager.obtainTypeface(context, fontFamily, textWeight, textStyle);
