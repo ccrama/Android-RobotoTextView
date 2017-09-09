@@ -19,105 +19,105 @@
 
     <declare-styleable name="RobotoAutoCompleteTextView">
         <attr name="typeface"/>
-        <attr name="fontFamily"/>
+        <attr name="fontFam"/>
         <attr name="textWeight"/>
         <attr name="textStyle"/>
     </declare-styleable>
 
     <declare-styleable name="RobotoButton">
         <attr name="typeface"/>
-        <attr name="fontFamily"/>
+        <attr name="fontFam"/>
         <attr name="textWeight"/>
         <attr name="textStyle"/>
     </declare-styleable>
 
     <declare-styleable name="RobotoCheckBox">
         <attr name="typeface"/>
-        <attr name="fontFamily"/>
+        <attr name="fontFam"/>
         <attr name="textWeight"/>
         <attr name="textStyle"/>
     </declare-styleable>
 
     <declare-styleable name="RobotoCheckedTextView">
         <attr name="typeface"/>
-        <attr name="fontFamily"/>
+        <attr name="fontFam"/>
         <attr name="textWeight"/>
         <attr name="textStyle"/>
     </declare-styleable>
 
     <declare-styleable name="RobotoChronometer">
         <attr name="typeface"/>
-        <attr name="fontFamily"/>
+        <attr name="fontFam"/>
         <attr name="textWeight"/>
         <attr name="textStyle"/>
     </declare-styleable>
 
     <declare-styleable name="RobotoCompoundButton">
         <attr name="typeface"/>
-        <attr name="fontFamily"/>
+        <attr name="fontFam"/>
         <attr name="textWeight"/>
         <attr name="textStyle"/>
     </declare-styleable>
 
     <declare-styleable name="RobotoDigitalClock">
         <attr name="typeface"/>
-        <attr name="fontFamily"/>
+        <attr name="fontFam"/>
         <attr name="textWeight"/>
         <attr name="textStyle"/>
     </declare-styleable>
 
     <declare-styleable name="RobotoEditText">
         <attr name="typeface"/>
-        <attr name="fontFamily"/>
+        <attr name="fontFam"/>
         <attr name="textWeight"/>
         <attr name="textStyle"/>
     </declare-styleable>
 
     <declare-styleable name="RobotoExtractEditText">
         <attr name="typeface"/>
-        <attr name="fontFamily"/>
+        <attr name="fontFam"/>
         <attr name="textWeight"/>
         <attr name="textStyle"/>
     </declare-styleable>
 
     <declare-styleable name="RobotoMultiAutoCompleteTextView">
         <attr name="typeface"/>
-        <attr name="fontFamily"/>
+        <attr name="fontFam"/>
         <attr name="textWeight"/>
         <attr name="textStyle"/>
     </declare-styleable>
 
     <declare-styleable name="RobotoRadioButton">
         <attr name="typeface"/>
-        <attr name="fontFamily"/>
+        <attr name="fontFam"/>
         <attr name="textWeight"/>
         <attr name="textStyle"/>
     </declare-styleable>
 
     <declare-styleable name="RobotoSwitch">
         <attr name="typeface"/>
-        <attr name="fontFamily"/>
+        <attr name="fontFam"/>
         <attr name="textWeight"/>
         <attr name="textStyle"/>
     </declare-styleable>
 
     <declare-styleable name="RobotoTextClock">
         <attr name="typeface"/>
-        <attr name="fontFamily"/>
+        <attr name="fontFam"/>
         <attr name="textWeight"/>
         <attr name="textStyle"/>
     </declare-styleable>
 
     <declare-styleable name="RobotoTextView">
         <attr name="typeface"/>
-        <attr name="fontFamily"/>
+        <attr name="fontFam"/>
         <attr name="textWeight"/>
         <attr name="textStyle"/>
     </declare-styleable>
 
     <declare-styleable name="RobotoToggleButton">
         <attr name="typeface"/>
-        <attr name="fontFamily"/>
+        <attr name="fontFam"/>
         <attr name="textWeight"/>
         <attr name="textStyle"/>
     </declare-styleable>
@@ -158,7 +158,7 @@
         <enum name="roboto_mono_bold_italic" value="31"/>
     </attr>
 
-    <attr name="fontFamily">
+    <attr name="fontFam">
         <enum name="roboto" value="0"/>
         <enum name="roboto_condensed" value="1"/>
         <enum name="roboto_slab" value="2"/>
