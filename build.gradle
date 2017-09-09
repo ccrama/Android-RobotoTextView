@@ -20,5 +20,5 @@ ext {
     buildToolsVersion = '24.0.2'
 
     // Android dependencies.
-    supportAppCompat = 'com.android.support:appcompat-v7:24.2.0'
+    supportAppCompat = 'com.android.support:appcompat-v7:26.0.1'
 }
