@@ -15,9 +15,9 @@ allprojects {
 }
 
 ext {
-    minSdkVersion = 9
-    compileSdkVersion = 24
-    buildToolsVersion = '24.0.2'
+    minSdkVersion = 13
+    compileSdkVersion = 26
+    buildToolsVersion '26.0.0'
 
     // Android dependencies.
     supportAppCompat = 'com.android.support:appcompat-v7:26.0.1'
