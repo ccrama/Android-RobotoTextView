@@ -1,9 +1,5 @@
 apply plugin: 'com.android.application'
 
-dependencies {
-    compile project(':robototextview')
-}
-
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
     buildToolsVersion rootProject.ext.buildToolsVersion
@@ -15,4 +11,8 @@ android {
         versionCode 1
         versionName "$VERSION_NAME"
     }
+}
+
+dependencies {
+    compile project(':robototextview')
 }
