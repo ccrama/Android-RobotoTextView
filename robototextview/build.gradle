@@ -1,9 +1,5 @@
 apply plugin: 'com.android.library'
 
-dependencies {
-    compile rootProject.ext.supportAppCompat
-}
-
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
     buildToolsVersion rootProject.ext.buildToolsVersion
@@ -11,6 +7,10 @@ android {
     defaultConfig {
         minSdkVersion rootProject.ext.minSdkVersion
     }
+}
+
+dependencies {
+    compile "com.android.support:appcompat-v7:$supportLibVersion"
 }
 
 // Used to push in maven

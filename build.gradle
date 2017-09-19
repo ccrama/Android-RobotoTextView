@@ -1,15 +1,17 @@
-apply from: 'dependencies.gradle'
-
 buildscript {
-    apply from: 'dependencies.gradle'
 
     repositories {
         jcenter()
+        google()
     }
+
     dependencies {
-        classpath gradlePlugins.android
-        classpath gradlePlugins.versions
+        classpath 'com.android.tools.build:gradle:3.0.0-beta6'
     }
+}
+
+plugins {
+    id 'com.github.ben-manes.versions' version '0.15.0'
 }
 
 allprojects {
@@ -19,4 +21,10 @@ allprojects {
     }
 }
 
-apply plugin: 'com.github.ben-manes.versions'
+ext {
+    compileSdkVersion = 26
+    targetSdkVersion = compileSdkVersion
+    buildToolsVersion = '26.0.1'
+    supportLibVersion = '26.1.0'
+    minSdkVersion = 14
+}
